@@ -1,16 +1,94 @@
-## Hi there 👋
+# Hi, I'm YIXIN
 
-<!--
-**Roxin-ChaI/Roxin-ChaI** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I build **AI agents, retrieval systems, and production-oriented LLM applications**.
 
-Here are some ideas to get you started:
+My current focus is on turning LLM prototypes into structured software systems with **tool calling, RAG, context engineering, evaluation, reliability, and observability**.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Featured Projects
+
+### [Production Knowledge Research Agent](https://github.com/Roxin-ChaI/production-knowledge-research-agent)
+
+A production-oriented single-agent research system combining:
+
+* DeepSeek V4 Flash
+* PostgreSQL + pgvector
+* Hybrid retrieval and Reciprocal Rank Fusion
+* Knowledge Search + Web Search
+* Evidence grounding and citation verification
+* Research planning and evaluation
+* Redis async jobs
+* OpenTelemetry observability
+* Retry, timeout, and deadline reliability
+* Docker-based infrastructure
+* Real end-to-end validation
+
+**Quality baseline:** 1021 tests passed · Real E2E 3/3 PASS
+
+---
+
+### [Web Research Agent](https://github.com/Roxin-ChaI/web-research-agent)
+
+A focused implementation of a **single-agent ReAct and Tool Calling workflow** using DeepSeek V4 Flash and Web Search.
+
+Built to explore the core mechanics behind:
+
+`LLM → Tool Call → Search → Observation → Reasoning → Final Answer`
+
+without relying on large agent frameworks.
+
+---
+
+### [Context Window Compressor](https://github.com/Roxin-ChaI/context-window-compressor)
+
+A context-engineering library for managing LLM context-window constraints.
+
+Explores:
+
+* Token budgeting
+* Context partitioning
+* Truncation strategies
+* Windowed summarization
+* Tool-call preservation
+* Compression evaluation
+
+## What I'm Working On
+
+My projects currently focus on four areas:
+
+* **AI Agents** — Tool Calling, ReAct, bounded agent runtimes
+* **RAG & Retrieval** — embeddings, pgvector, hybrid retrieval, reranking
+* **Context Engineering** — token budgets and context compression
+* **AI System Engineering** — evaluation, reliability, observability, async jobs, Docker
+
+## Engineering Stack
+
+**Languages**
+
+`Python` · `C++`
+
+**AI / LLM**
+
+`LLM Agents` · `Tool Calling` · `RAG` · `Embeddings` · `Context Engineering`
+
+**Backend & Data**
+
+`FastAPI` · `PostgreSQL` · `pgvector` · `Redis` · `SQLAlchemy`
+
+**Engineering**
+
+`Docker` · `GitHub Actions` · `OpenTelemetry` · `pytest` · `Ruff` · `mypy`
+
+## Project Progression
+
+My public repositories document a progression from software engineering fundamentals toward increasingly complete AI-agent systems:
+
+`CLI & Backend Engineering`
+→ `Tool Calling`
+→ `Single-Agent Systems`
+→ `Context Engineering`
+→ `Retrieval & Evaluation`
+→ `Production-Oriented Research Agents`
+
+---
+
+Most of my repositories include tests, documentation, reproducible workflows, and explicit implementation boundaries rather than presenting prototypes as production-ready systems.
