@@ -25,8 +25,9 @@ A production-oriented **single-agent research system** with a **LangGraph-orches
 
 The v0.3.0 runtime migration replaces the handwritten agent control loop with LangGraph while preserving the existing ModelClient, ToolExecutor, domain contracts, execution limits, exception semantics, and observability boundaries.
 
-**Quality baseline:** 1057 tests passed
+**Quality baseline:** 1057 tests passed<br>
 **Latest Real E2E baseline:** 3/3 PASS (v0.2.0)
+
 
 ---
 
@@ -59,10 +60,10 @@ Explores:
 
 My projects currently focus on four areas:
 
-* **AI Agents** — Tool Calling, ReAct, bounded agent runtimes
+* **AI Agents** — LangGraph, Tool Calling, ReAct, bounded agent runtimes
 * **RAG & Retrieval** — embeddings, pgvector, hybrid retrieval, reranking
 * **Context Engineering** — token budgets and context compression
-* **AI System Engineering** — evaluation, reliability, observability, async jobs, Docker
+* **AI System Engineering** — evaluation, grounding, reliability, observability, async jobs, Docker
 
 ## Engineering Stack
 
@@ -72,7 +73,7 @@ My projects currently focus on four areas:
 
 **AI / LLM**
 
-`LLM Agents` · `Tool Calling` · `RAG` · `Embeddings` · `Context Engineering`
+`LangGraph` · `LLM Agents` · `Tool Calling` · `RAG` · `Embeddings` · `Context Engineering` · `Evaluation` · `Grounding`
 
 **Backend & Data**
 
