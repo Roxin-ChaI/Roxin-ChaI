@@ -8,8 +8,9 @@ My current focus is on turning LLM prototypes into structured software systems w
 
 ### [Production Knowledge Research Agent](https://github.com/Roxin-ChaI/production-knowledge-research-agent)
 
-A production-oriented single-agent research system combining:
+A production-oriented **single-agent research system** with a **LangGraph-orchestrated bounded runtime**, combining:
 
+* LangGraph runtime orchestration
 * DeepSeek V4 Flash
 * PostgreSQL + pgvector
 * Hybrid retrieval and Reciprocal Rank Fusion
@@ -22,7 +23,10 @@ A production-oriented single-agent research system combining:
 * Docker-based infrastructure
 * Real end-to-end validation
 
-**Quality baseline:** 1021 tests passed · Real E2E 3/3 PASS
+The v0.3.0 runtime migration replaces the handwritten agent control loop with LangGraph while preserving the existing ModelClient, ToolExecutor, domain contracts, execution limits, exception semantics, and observability boundaries.
+
+**Quality baseline:** 1057 tests passed
+**Latest Real E2E baseline:** 3/3 PASS (v0.2.0)
 
 ---
 
