@@ -1,87 +1,73 @@
-# Hi, I'm YIXIN
+# Hi, I'm Yixin
 
-I build **AI agents, retrieval systems, and production-oriented LLM applications**.
+**Software Engineer building AI Agents and production-oriented LLM applications.**
 
-My current focus is on turning LLM prototypes into structured software systems with **tool calling, RAG, context engineering, evaluation, reliability, and observability**.
+I focus on **Agent Runtime, RAG, Context Engineering, Evaluation, Reliability, and Backend Engineering** — turning LLM prototypes into structured, testable, and observable software systems.
 
-## Featured Projects
+`Python` · `LangGraph` · `RAG` · `FastAPI` · `PostgreSQL` · `pgvector` · `Redis`
+
+<a href="https://Roxin-ChaI.github.io">
+  <img src="https://img.shields.io/badge/Portfolio-181717?style=flat-square&logo=githubpages&logoColor=white" />
+</a>
+<a href="mailto:roxin_chai_0728@163.com">
+  <img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" />
+</a>
+
+## Selected Projects
 
 ### [Production Knowledge Research Agent](https://github.com/Roxin-ChaI/production-knowledge-research-agent)
 
-A production-oriented **single-agent research system** with a **LangGraph-orchestrated bounded runtime**, combining:
+A production-oriented **AI research agent** built with a **LangGraph-orchestrated runtime**, hybrid RAG, evidence grounding, evaluation, reliability, and observability.
 
-* LangGraph runtime orchestration
-* DeepSeek V4 Flash
-* PostgreSQL + pgvector
-* Hybrid retrieval and Reciprocal Rank Fusion
-* Knowledge Search + Web Search
-* Evidence grounding and citation verification
-* Research planning and evaluation
-* Redis async jobs
-* OpenTelemetry observability
-* Retry, timeout, and deadline reliability
-* Docker-based infrastructure
-* Real end-to-end validation
+`LangGraph` · `RAG` · `PostgreSQL` · `pgvector` · `Redis` · `OpenTelemetry`
 
-The v0.3.0 runtime migration replaces the handwritten agent control loop with LangGraph while preserving the existing ModelClient, ToolExecutor, domain contracts, execution limits, exception semantics, and observability boundaries.
-
-**Quality baseline:** 1057 tests passed<br>
-**Latest Real E2E baseline:** 3/3 PASS (v0.2.0)
-
+**1057 tests passed** · **Real E2E validated** · **v0.3.0**
 
 ---
 
 ### [Web Research Agent](https://github.com/Roxin-ChaI/web-research-agent)
 
-A focused implementation of a **single-agent ReAct and Tool Calling workflow** using DeepSeek V4 Flash and Web Search.
+A lightweight **LangChain-based web research agent** that lets the model decide when external search is needed while preserving a small, explicit application contract.
 
-Built to explore the core mechanics behind:
+`LangChain` · `Tool Calling` · `ChatDeepSeek` · `DDGS` · `Python`
 
-`LLM → Tool Call → Search → Observation → Reasoning → Final Answer`
-
-without relying on large agent frameworks.
+**75 tests passed** · **v0.2.0**
 
 ---
 
 ### [Context Window Compressor](https://github.com/Roxin-ChaI/context-window-compressor)
 
-A context-engineering library for managing LLM context-window constraints.
+A framework-agnostic **context engineering library** for managing LLM Agent message history under token-budget constraints.
 
-Explores:
+`Context Engineering` · `Token Budgeting` · `Compression Strategies` · `Tool-Call Preservation` · `Python`
 
-* Token budgeting
-* Context partitioning
-* Truncation strategies
-* Windowed summarization
-* Tool-call preservation
-* Compression evaluation
+---
 
-## What I'm Working On
+### [AI GitHub Reviewer](https://github.com/Roxin-ChaI/ai-github-reviewer)
 
-My projects currently focus on four areas:
+A read-only **AI Pull Request reviewer** using bounded Tool Calling to retrieve real GitHub PR data and produce structurally validated code reviews.
 
-* **AI Agents** — LangGraph, Tool Calling, ReAct, bounded agent runtimes
-* **RAG & Retrieval** — embeddings, pgvector, hybrid retrieval, reranking
-* **Context Engineering** — token budgets and context compression
-* **AI System Engineering** — evaluation, grounding, reliability, observability, async jobs, Docker
+`Tool Calling` · `GitHub API` · `DeepSeek` · `Docker` · `GitHub Actions`
+
+## What I'm Building
+
+My work currently focuses on four areas:
+
+- **Agent Systems** — LangGraph, LangChain, Tool Calling, bounded execution, and agent runtime design
+- **RAG & Retrieval** — embeddings, pgvector, hybrid retrieval, reranking, grounding, and citations
+- **Context Engineering** — token budgeting, context compression, and message-history management
+- **AI System Engineering** — evaluation, reliability, observability, async execution, and backend infrastructure
 
 ## Engineering Stack
 
-**Languages**
+**AI / Agent Systems**  
+`LangGraph` · `LangChain` · `Tool Calling` · `RAG` · `Embeddings` · `Context Engineering` · `Evaluation` · `Grounding`
 
-`Python` · `C++`
-
-**AI / LLM**
-
-`LangGraph` · `LLM Agents` · `Tool Calling` · `RAG` · `Embeddings` · `Context Engineering` · `Evaluation` · `Grounding`
-
-**Backend & Data**
-
+**Backend / Data**  
 `FastAPI` · `PostgreSQL` · `pgvector` · `Redis` · `SQLAlchemy`
 
-**Engineering**
-
-`Docker` · `GitHub Actions` · `OpenTelemetry` · `pytest` · `Ruff` · `mypy`
+**Engineering**  
+`Python` · `C++` · `Docker` · `GitHub Actions` · `OpenTelemetry` · `pytest` · `Ruff` · `mypy`
 
 ## Project Progression
 
