@@ -20,6 +20,8 @@
 
 ## 🚀 Projects
 
+- 🧰 **[Agent Engineering Workbench](https://github.com/Roxin-ChaI/agent-engineering-workbench)** — Unified full-stack workspace integrating production-oriented AI agents, research workflows, context engineering, evaluation, and prompt tooling.
+
 - 🤖 **[Production Knowledge Research Agent](https://github.com/Roxin-ChaI/production-knowledge-research-agent)** — Production-oriented research agent with LangGraph, hybrid RAG, grounding, evaluation, reliability, and observability.
 
 - 🔎 **[Web Research Agent](https://github.com/Roxin-ChaI/web-research-agent)** — Lightweight LangChain agent that autonomously uses web search through tool calling.
