@@ -28,6 +28,8 @@
 
 - 🔎 **[Web Research Agent](https://github.com/Roxin-ChaI/web-research-agent)** — Lightweight LangChain agent that autonomously uses web search through tool calling.
 
+- 📄 **[AI Resume Optimizer](https://github.com/Roxin-ChaI/ai-resume-optimizer)** — Evidence-grounded resume optimization tool that analyzes job requirements, rewrites resumes conservatively, validates factual provenance, and exports editable DOCX/Markdown results with DeepSeek.
+
 - 🧠 **[Context Window Compressor](https://github.com/Roxin-ChaI/context-window-compressor)** — Framework-agnostic context engineering library for managing LLM Agent history under token constraints.
 
 - 🔍 **[AI GitHub Reviewer](https://github.com/Roxin-ChaI/ai-github-reviewer)** — Read-only AI Pull Request reviewer with bounded tool calling and deterministic output validation.
