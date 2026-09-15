@@ -14,9 +14,9 @@
 
 > **Agent Systems · RAG · Context Engineering · AI Infrastructure**
 >
-> I spent the past several years turning simulation and machine-learning data into practical software—from Qt desktop systems and model-training interfaces to reliable data applications.
+> I have several years of experience building practical software systems around simulation, machine learning, and data-intensive workflows, including Qt desktop applications, model-training tools, and reliable data platforms.
 > 
-> Today I am channeling that engineering foundation into AI agents and open-source developer tools, approaching AI as a disciplined apprentice: learning in public, testing assumptions, and building small systems that earn trust through evidence.
+> I am now focused on building AI-native products and developer tools, with particular interest in AI agents, LLM-powered workflows, tool use, and knowledge retrieval. I bring a strong engineering mindset to AI development, emphasizing reliability, clear system boundaries, rapid experimentation, and evidence-driven iteration.
 
 ## 🚀 Projects
 
